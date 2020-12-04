@@ -268,8 +268,22 @@ career here, you'll have to answer the following:
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
-- The most important part of code reviews, and the reason they are crucial, is because of the philosophy that "code is read more often than it is written." Getting another set of eyes on one's code to make sure it is logical, flows nicely, and, most importantly, that it makes sense is the most important thing. When I am personally involved in code reviews, I try to make these points a focus, and like when others do the same for me. Secondarily is the confirmation that the code isn't easily "breakable." Finally, it's helpful to have someone else confirm the code's stylistic compliance.
--Containers let everyone have access to the same versions of files and the environments they live in, meaning that edits can happen collaboratively. This allows everyone working on a project to work as they normally would, without creating concerns for merging a completed project.
+- I find that one of the most important parts for me in performing code reviews
+is to pay attention to the variable names used. I am a big proponent of 'Self
+Documenting Code' so variable names should explain what they are for with their
+name. Avoiding ambiguous names such as simple letters 'a', 'b', or 'c'. Having
+variable names that explain their function help to ensure future readings of the
+code make it easier to follow the variable logic. After that I would look for
+comments and docstrings that further explain complex code pieces. Last I would
+review for style ensuring that the code follows a standard throughout the whole
+code.
+- Containers offer a lightweight option for application environments. As
+containers can run on multiple host Operating Systems it allows the application
+in the container to act "OS agnostic" making it easier to deploy the application
+regardless of the Host OS. Additionally the container can be set up to ensure
+all necessary dependencies for the application are installed, alleviating the
+need for setting up each host computer to have the necessary dependencies
+installed.
 
 ### Part 8 - Turn it in!
 
