@@ -45,7 +45,7 @@ class Product():
 
         # if/elif/else statement to return if the Product will explode
         if(volatility < 10):
-            return '...fizzle'
+            return '...fizzle.'
         elif(volatility < 50):
             return '...boom!'
         else:

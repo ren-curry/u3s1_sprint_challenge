@@ -38,7 +38,7 @@ class AcmeProductTests(unittest.TestCase):
         prod1 = Product('Test Product 1', weight=15, flammability=0.5)
         prod2 = Product('Test Product 2', weight=20, flammability=1.0)
         prod3 = Product('Test Product 3', weight=25, flammability=2.5)
-        self.assertEqual(prod1.explode(), '...fizzle')
+        self.assertEqual(prod1.explode(), '...fizzle.')
         self.assertEqual(prod2.explode(), '...boom!')
         self.assertEqual(prod3.explode(), '...BABOOM!!')
 
